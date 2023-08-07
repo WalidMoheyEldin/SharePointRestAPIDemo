@@ -8,7 +8,7 @@
     public class SharePointHelper : ISharePointHelper
     {
         private readonly IAdfsTokenProvider adfsTokenProvider;
-        private readonly string siteUrl = "https://xxxxxxxxxxxxxxxxx";
+        private const string siteUrl = "https://xxxxxxxxxxxxxxxxx";
 
         public SharePointHelper(IAdfsTokenProvider adfsTokenProvider) => this.adfsTokenProvider = adfsTokenProvider;
 

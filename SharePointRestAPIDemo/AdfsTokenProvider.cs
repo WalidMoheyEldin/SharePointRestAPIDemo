@@ -10,11 +10,11 @@ namespace SharePointRestAPIDemo
 
     public class AdfsTokenProvider : IAdfsTokenProvider
     {
-        private readonly string adfsUrl = "https://XXXXXXXXXX";
-        private readonly string clientId = "XXXXXXXXX";
-        private readonly string clientSecret = "XXXXXXXXX";
-        private readonly string username = "XXXXXXXX";
-        private readonly string password = "XXXXXXXXX";
+        private const string adfsUrl = "https://XXXXXXXXXX";
+        private const string clientId = "XXXXXXXXX";
+        private const string clientSecret = "XXXXXXXXX";
+        private const string username = "XXXXXXXX";
+        private const string password = "XXXXXXXXX";
 
         public async Task<string> GetAccessTokenAsync()
         {
